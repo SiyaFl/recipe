@@ -1,0 +1,34 @@
+.navbar{ background-color: black;
+
+}
+
+.colour {
+    background-color:lightgoldenrodyellow
+}
+.wprm-nutrition-label-container wprm-nutrition-label-container-label {
+    border: 2px solid #000;
+}
+.tables {
+    background-color: lightgoldenrodyellow;
+}
+P{
+    font-family: 'Sriracha', cursive;  
+}
+h4{
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid black;
+    width: 10%;
+
+}
+@media screen and (min-width: 480px) {
+  #leftsidebar {width: 500px; float: left;}
+  #main {margin-left: 216px;}
+
+body {
+    background-color: tan;
+    color: black;
+  }
+}
+  
