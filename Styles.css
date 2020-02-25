@@ -1,34 +1,67 @@
+.wallpaper
+{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url(Images/My\ Chicken.jpg);
+    background-size: cover;
+    width: 100%;
+}
+h1{
+    color: blanchedalmond;
+}
+P{
+    color: blanchedalmond;
+}
 .navbar{ background-color: black;
 
 }
-
-.colour {
-    background-color:lightgoldenrodyellow
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#Instructions
+{
+    padding-bottom: 3.4rem;
+}
+.container{
+    margin: auto;
+    height: auto;
+    width: auto;
 }
 .wprm-nutrition-label-container wprm-nutrition-label-container-label {
     border: 2px solid #000;
-}
-.tables {
-    background-color: lightgoldenrodyellow;
 }
 P{
     font-family: 'Sriracha', cursive;  
 }
 h4{
     text-align: center;
+    font-size: small;
+    font-family:'Sriracha', cursive;
+}
+h2{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Sriracha', cursive; 
 }
 table, th, td {
-    border: 1px solid black;
+    
     width: 10%;
+    background-color: chocolate;
 
 }
+body {
+    background-color:whitesmoke;
+    background-image: url(Images/Rice.jpg),linear-gradient(to right,#a1d3b0, #f6f1d3);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color:whitesmoke;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
 @media screen and (min-width: 480px) {
   #leftsidebar {width: 500px; float: left;}
   #main {margin-left: 216px;}
 
-body {
-    background-color: tan;
-    color: black;
-  }
 }
-  
