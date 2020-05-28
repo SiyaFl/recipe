@@ -1,16 +1,20 @@
 .wallpaper
 {
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url(Images/My\ Chicken.jpg);
+    background: transparent;
     background-size: cover;
     width: 100%;
+    border-radius: 12%;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px #000000;
 }
+
 h1{
     color: blanchedalmond;
 }
-P{
-    color: blanchedalmond;
-}
+
+
 .navbar{ background-color: black;
+    background: transparent;
 
 }
 *
@@ -26,16 +30,24 @@ P{
     margin: auto;
     height: auto;
     width: auto;
+    text-shadow: 2px 2px 4px #000000;
+    background: transparent;
+    
+    
 }
 .wprm-nutrition-label-container wprm-nutrition-label-container-label {
     border: 2px solid #000;
 }
+
 P{
-    font-family: 'Sriracha', cursive;  
+    font-family: 'Sriracha', cursive;
+    font-size: small;  
+    text-align: left;
 }
-h4{
+h5{
     text-align: center;
-    font-size: small;
+    font-size: x-large;
+    text-shadow: 2px 2px 4px #000000;
     font-family:'Sriracha', cursive;
 }
 h2{
@@ -43,21 +55,44 @@ h2{
     font-size: 25px;
     font-family: 'Sriracha', cursive; 
 }
-table, th, td {
-    
-    width: 10%;
-    background-color: chocolate;
 
+table{
+    text-decoration: cornsilk;    
+    width: auto;
+    height: auto;
+    background-color:transparent;
+    border: transparent; 
+    text-shadow: 2px 2px 4px #000000;
+} 
+th{ text-decoration: cornsilk;    
+    width: auto;
+    height: auto;
+    background-color:transparent;
+    border: transparent; 
+    text-shadow: 2px 2px 4px #000000;} 
+td {
+    text-decoration: cornsilk;    
+    width: auto;
+    height: auto;
+    background-color:transparent;
+    border: transparent; 
+    text-shadow: 2px 2px 4px #000000;
 }
-body {
+
+.text-color{
+    color: whitesmoke !important;
+}
+body 
+{
     background-color:whitesmoke;
-    background-image: url(Images/Rice.jpg),linear-gradient(to right,#a1d3b0, #f6f1d3);
+    background-image: url(Images/bol.webp),linear-gradient(to right,#a1d3b0, #f6f1d3);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    color:whitesmoke;
+    color:rgb(250, 248, 252);
     font-size: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 4px #000000;
   }
 
 @media screen and (min-width: 480px) {

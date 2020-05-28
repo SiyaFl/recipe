@@ -9,30 +9,27 @@
     <link href='//fonts.googleapis.com/css?family=Montserrat:700,400|Average|Roboto:300,700|Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="Stylessheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="Styles.css">
-    <title>My reciepe</title>
+    <title>My recipe</title>
   </head>
   <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-warning sticky-top">
-      <a class="navbar-brand" href="#">
+    <nav class="navbar navbar-expand-lg bg-transparent navbar-fixed-top">
+      <a class="navbar-brand" href="index.html">
       <img src="images/Chef2.jpeg" width="30" height="30" class="d-inline-block align-top" alt="">
       Flepu's Kitchen</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Gallery</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="about.html">About</a>
           </li>
 
           <li class="nav-item">
@@ -45,34 +42,33 @@
   
   <!--header-->
   <!--Container-->
+  <div class="v-visible">
     <div class="jumbotron wallpaper">
-      <div class="container text-center">
+      <div class="container text-center shadow-lg p-3 mb-5 ">
         <h1 class="display-4">Flepu's Chicken Curry Recipe</h1>
         <p class="lead">Chicken Curry Recipe – an easy one-pot meal that is bursting with flavor. The most delicious curry stew; you will want to make this over and over again.</p>
-        <p class="lead">Prep Time
-          15 mins<br>
-          
-          Cook Time
-          45 mins<br>
-
-            Total Time
-          1 hr<br>
-          
-          Course: Main
-          Servings: 6
-          Calories: 266 kcal<br>
-
-          </p>
+        <p class="lead">Prep Time:
+                        15 mins<br>
+                        Cook Time:
+                        5 mins<br>
+                        Total Time:
+                        1 hr<br>
+                        Course: Main
+                        Servings: 6
+                        Calories: 266 kcal<br>
+        </p>
       </div>
+     </div>
      </div>
     <!--End Header-->
 
     <!--Columns-->
+    <div class="v-visible">
     <div class="container">
       <div class="row text-left"> 
         <div class="col-md-6">
           <div class="colour">
-            <h2>Ingredients</h2>
+            <h5>Ingredients</h5>
             <ol>
               <li>2-2 1/2 pound boneless, skinless chicken thighs , chopped</li>
               <li>1 teaspoon white pepper , optional</li>
@@ -96,7 +92,7 @@
         
         <div class="col-md-6 ">
           <div class="colour" id="Instructions">
-           <h2>Instructions</h2>
+           <h5>Instructions</h5>
             <ol>
              <li>Season chicken with, salt and pepper  and set aside.
 
@@ -119,16 +115,12 @@
         </div>
       </div>
     </div>
+  </div>
     <!--End Columns-->
 
     <!--Table-->
-    <style>
-      table, th, td {
-        border: 1px solid black; 
-      }
-    </style>
       <h2>Nutrition Facts</h2>
-      <table class="table table-striped table-responsive table-hover">
+      <table class="table table-striped table-responsive table-hover text-color">
         <thead>
           <tr width="10%">
             <th scope="col">Calories</th>
@@ -161,7 +153,7 @@
             <td>4.6mg-26%</td>
           </tr>
       </table>
-      <h4>* Percent Daily Values are based on a 2000 calorie diet.*</h4>
+      <h5>* Percent Daily Values are based on a 2000 calorie diet.*</h>
   
     <!--End table-->
 <hr>
@@ -171,14 +163,21 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <!--Footer-->
+  <footer></footer>
   <div class="media-container-row mbr-white">
     <div class="col-sm-6 copyright">
         <p class="mbr-text mbr-fonts-style display-7">
             © Copyright 2020 Immanuel Flepu - All Rights Reserved
-        </p>
+            <a href="#" class="fa fa-facebook">Facebook</a>
+            <a href="#" class="fa fa-twitter">Twitter</a>
+            <a href="#" class="fa fa-linkedin">Linkedin</a>
+            <a href="#" class="fa fa-skype">Skype</a>
+            <a href="#" class="fa fa-instagram">Instagram</a>
+          </p>
     </div>    
     </div>
   </div>
+</footer>
   <!--End Footer-->  
   </body>
 </html>
